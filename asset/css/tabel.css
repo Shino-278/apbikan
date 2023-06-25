@@ -1,0 +1,46 @@
+.table-container {
+  margin: 20px;
+}
+.table-container table {
+  width: 100%;
+  font-size: 12px;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.table-container table th,
+.table-container table td {
+  border: none;
+  padding: 12px 15px;
+}
+.table-container table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  text-align: left;
+  color: #333;
+  text-transform: uppercase;
+}
+.table-container table tbody tr {
+  border-bottom: 1px solid #eee;
+}
+.table-container table tbody tr:last-child {
+  border-bottom: none;
+}
+.table-container table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+.table-container table tbody tr:hover {
+  background-color: #f2f2f2;
+}
+/* CSS Khusus untuk tombol aksi */
+.btn-group {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-group .btn {
+  margin-left: 5px;
+}
+
+.btn {
+  font-size: 12px;
+}
